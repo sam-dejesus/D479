@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+.header-container{
+    height: auto;
+    height: 40vh;
+    position: relative;
+}
+video{
+    z-index: -1;
+    width: 100%;
+    height: 40vh; 
+    object-fit: cover;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    
+}
+.test{
+    z-index: 1;
+    position: relative; 
+    color: white;
+    height: 100% ;
+    font-family: "Grandstander", cursive;
+}
+h1{
+    padding-top: 30px;
+    font-size: 120px !important;
+}

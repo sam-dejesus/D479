@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+main{
+    height: 100%;
+}
+h2{
+    font-family: "Grandstander", cursive !important;
+}
+.parallax {
+    background-image: url("../media/p1.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
