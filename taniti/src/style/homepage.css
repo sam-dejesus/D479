@@ -57,9 +57,12 @@ img[src*="sec"] {
     
 }
 footer{
-    height: 35vh;
+    height: 500px;
     width: 100%;
     background-color: aliceblue;
+}
+h3, h4, ul{
+    font-family: "Grandstander", cursive !important;
 }
 #footer-topic-div ul li {
     list-style-type: none;

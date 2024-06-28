@@ -84,7 +84,7 @@ export default function Homepage() {
               developing area on the north side of Yellow Leaf Bay.{" "}
             </p>
             <div className="btnDiv pb-5">
-              <button className="btn btn-outline-info">Learn more</button>
+            <Link className="btn btn-outline-info" to="/Entertainment" >Learn more</Link>
             </div>
           </div>
 
@@ -100,7 +100,8 @@ export default function Homepage() {
                 to Taniti’s active volcano.
               </p>
               <div className="btnDiv">
-                <button className="btn btn-outline-info">Learn more</button>
+                
+                <Link className="btn btn-outline-info" to="/Sightseeing" >Learn more</Link>
               </div>
             </div>
           </div>
@@ -137,9 +138,11 @@ export default function Homepage() {
                 law). Taniti City is fairly flat and very walkable. Many
                 tourists stay in the area surrounding Merriton Landing: this
                 area is easy to explore on foot.
+                <Link className="btn btn-outline-info ms-2" to="/Transportation" >Learn more</Link>
               </li>
             </ul>
           </div>
+          
         </div>
       </main>
       <Footer>
