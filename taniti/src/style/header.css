@@ -21,7 +21,7 @@ video{
     height: 100% ;
     font-family: "Grandstander", cursive;
 }
-h1{
+.header-h1{
     padding-top: 30px;
-    font-size: 120px !important;
+    font-size: 120px ;
 }

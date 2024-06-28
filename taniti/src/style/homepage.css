@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
-main{
+
+main {
     height: 100%;
 }
-h2{
+
+.homepage-h2 {
     font-family: "Grandstander", cursive !important;
+    font-size: 90px !important;
+}
+
+.homepage-p, ul, li{
+    font-size: 20px;
+}
+
+img[src*="sec"] {
+    border-radius: 10%;
+}
+.abc{
+    border: 2px solid red;
+}
+.card{
+    width: 400px !important;
+    height: 260.5px !important;
+
 }
 .parallax {
     background-image: url("../media/p1.jpg");
@@ -12,4 +31,57 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+.parallax2 {
+    background-image: url("../media/p2.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background-image: url("../media/p3.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnDiv{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    
+}
+footer{
+    height: 35vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+#footer-topic-div ul li {
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+#footer-about-div ul li {
+    list-style-type: none;
+    font-size: 16px;
+}
+.social-media-div{
+    margin: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+

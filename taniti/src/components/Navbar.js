@@ -22,17 +22,17 @@ export default function Navbar({ currentPage, handlePageChange }) {
                 <Link to="/" id='nav-link' className=''>
                     <FontAwesomeIcon icon={faVolcano} />
                 </Link>
-                <Link to="/" id='nav-link'>
+                <Link to="/Lodging" id='nav-link'>
                     Lodging
                 </Link>
-                <Link to="/" id='nav-link'>
+                <Link to="/Entertainment" id='nav-link'>
                     Entertainment
                 </Link>
-                <Link to="/" id='nav-link'>
+                <Link to="/Transportation" id='nav-link'>
                     Transportation
                 </Link>
                 
-                <Link to="/" id='nav-link'>
+                <Link to="/Sightseeing" id='nav-link'>
                     Sightseeing
                 </Link>
             </div>
