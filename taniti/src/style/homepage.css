@@ -88,3 +88,16 @@ h3, h4, ul{
     transform: translateY(0);
 }
 
+@media screen and (max-width: 1300px) {
+    .col-12.d-flex {
+        flex-direction: column !important;
+    }
+
+   
+  
+}
+@media screen and (max-width: 650px) {
+    ul, li, a, Link, h4, h3{
+        font-size: 8px;
+    }
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../style/navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faNavicon, faVolcano } from "@fortawesome/free-solid-svg-icons";
+import { faNavicon} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 export default function Navbar({ currentPage, handlePageChange }) {
@@ -20,7 +20,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
             </div>
             <div className={`col-12 mt-1 ${showMenu ? 'd-flex flex-column ' : 'd-none'} d-md-flex justify-content-end pe-5`}>
                 <Link to="/" id='nav-link' className=''>
-                    <FontAwesomeIcon icon={faVolcano} />
+                    Home
                 </Link>
                 <Link to="/Lodging" id='nav-link'>
                     Lodging

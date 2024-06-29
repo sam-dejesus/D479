@@ -24,12 +24,12 @@ export default function Entertainment() {
             img1 = {p1}
             img2 = {p2}
             img3 = {p3}
-            alt1 = {"National Taniti History museum"}
-            alt2 = {"ziplining"}
-            alt3 = {"scuba diving"}
-            optiontitle1 = {"National Taniti History museum"}
-            optiontitle2 = {'ziplining'}
-            optiontitle3 = {"scuba diving"}
+            alt1 = {" Taniti National History museum"}
+            alt2 = {"Ziplining"}
+            alt3 = {"Scuba diving"}
+            optiontitle1 = {" Taniti National History museum"}
+            optiontitle2 = {'Ziplining'}
+            optiontitle3 = {"Scuba diving"}
             ></Main>
             </main>
             <Footer></Footer>

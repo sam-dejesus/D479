@@ -14,7 +14,7 @@ export default function Transportation() {
 
     return(
         <div>
-            <Header title=" Easeir then ever" videoSource={vid3}></Header>
+            <Header title=" Easier then ever" videoSource={vid3}></Header>
             <Navbar></Navbar>
             <main>
                 <Main 
@@ -23,9 +23,9 @@ export default function Transportation() {
                 img1 = {p1}
                 img2 = {p2}
                 img3 = {p3}
-                alt1 = {""}
-                alt2 = {""}
-                alt3 = {""}
+                alt1 = {"cruise ship"}
+                alt2 = {"airport terminal"}
+                alt3 = {"bikes"}
                 optiontitle1 = {"Yellow Leaf Bay Docks"}
                 optiontitle2 = {"Taniti's International Airport"}
                 optiontitle3 = {" Rent bikes"}

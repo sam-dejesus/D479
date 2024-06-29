@@ -25,3 +25,14 @@ video{
     padding-top: 30px;
     font-size: 120px ;
 }
+@media screen and (max-width: 1600px) {
+    .header-h1{
+      font-size: 80px ;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .header-h1{
+      font-size: 40px ;
+    }
+  }
